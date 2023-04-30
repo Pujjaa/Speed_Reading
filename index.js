@@ -95,7 +95,7 @@ $(function () {
 
     $("#result").css("fontSize", slidervalue);
     $("#fontsize").text(slidervalue);
-  };
+  });
 
   //change speed
   $("#speedslider").on("slidestop", function (event, ui) {
